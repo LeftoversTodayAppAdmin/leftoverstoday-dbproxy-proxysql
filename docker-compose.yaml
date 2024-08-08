@@ -7,5 +7,5 @@ services:
       - '6032:6032'
       - '6080:6080'
     volumes:
-      - './proxysql:/var/lib/proxysql'
-      - './proxysql.cnf:/etc/proxysql.cnf'
+      - 'proxysql:/var/lib/proxysql'
+      - 'proxysql.cnf:/etc/proxysql.cnf'
